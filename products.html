@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products</title>
+
+    <!-- External files -->
+    <link rel="stylesheet" type="text/css" href="assets/external/noUiSlider/nouislider.css">
+    <script src="assets/external/noUiSlider/nouislider.js"></script>
+
+    <!-- Custom CSS files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/footer.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/products/products.css">
+
+    <!-- JS files -->
+    <script src="assets/js/products/priceRange.js"></script>
+    <script src="assets/js/products/sidebar.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Access -->
+        <ul class="access-grid access-grid-template">
+            <li><a href="#"><span class="material-icons">account_circle</span>Hyr</a></li>
+            <li><a href="#"><span class="material-icons">favorite</span>Lista e Dëshirave</a></li>
+        </ul>
+
+        <!-- Primary Navigation -->
+        <nav>
+            <ul class="nav-grid nav-grid-template">
+                <li id="brand"><a href="index.html">Low.al</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#">Produktet<span class="material-icons">expand_more</span></a>
+                        <div class="dropdown-content">
+                            <a href="#">Informatika</a>
+                            <a href="#">Telefonia</a>
+                            <a href="#">Argëtim</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="search">
+                    <form>
+                        <input id="searchInput" type="text" placeholder="Kërko">
+                        <span id="searchIcon" class="material-icons">search</span>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main -->
+    <main>
+        <!-- Topbar -->
+        <div class="topbar">
+            <span class="opensb material-icons-outlined">filter_list</span>
+            <p class="products-type">Laptop</p>
+            <form class="sort-form">
+                <select>Sort by:
+                    <option>Rendit sipas çmimit: nga i ulëti te i larti</option>
+                    <option>Rendit sipas çmimit: nga i larti te i ulëti</option>
+                    <option>Rendit sipas emrit: A në Z</option>
+                    <option>Rendit sipas emrit: Z në A</option>
+                </select>
+            </form>
+        </div>
+
+        <!-- Filters Sidebar -->
+        <form class="sidebar">
+            <span class="closesb material-icons-outlined">close</span>
+
+            <div id="priceFilter">
+                <p>ÇMIMI</p>
+                <hr>
+                <div id="priceRange"></div>
+                <div id="priceDisplay">
+                    <input id="minDisplay" type="number">
+                    <input id="maxDisplay" type="number">
+                </div>
+            </div>
+
+            <div id="brandFilter">
+                <p>MARKA</p>
+                <hr>
+                <input type="checkbox" value="acer">
+                <label for="acer">Acer</label>
+                <br>
+                <input type="checkbox" value="apple">
+                <label for="apple">Apple</label>
+            </div>
+
+            <div id="cpuFilter">
+                <p>CPU</p>
+                <hr>
+                <input type="checkbox" value="ryzen9">
+                <label for="apple">Intel Core i7</label>
+                <br>
+                <input type="checkbox" value="i7">
+                <label for="apple">Ryzen 7</label>
+            </div>
+
+            <div id="RAMFilter">
+                <p>RAM</p>
+                <hr>
+                <input type="checkbox" value="2gb">
+                <label for="apple">2 GB</label>
+                <br>
+                <input type="checkbox" value="4gb">
+                <label for="apple">4 GB</label>
+            </div>
+
+            <div id="sizeFilter">
+                <p>MADHËSIA</p>
+                <hr>
+                <input type="checkbox" value="15.6">
+                <label for="apple">15.6"</label>
+                <br>
+                <input type="checkbox" value="13.3">
+                <label for="apple">13.3"</label>
+            </div>
+
+            <input type="submit" value="Filtro">
+        </form>
+
+        <!-- Product Grid -->
+        <div class="products">
+
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/1.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/2.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/3.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/4.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/5.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/1.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/2.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/3.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/4.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/5.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/1.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/2.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/3.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/4.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/5.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/1.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/2.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/3.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/4.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/5.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/1.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/2.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/3.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+            <a href="" class="product">
+                <img src="assets/img/products/informatics/4.png">
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+            </a>
+
+        </div>
+
+        <!-- Page Numbers -->
+        <div class="page-numbers">
+            <a class="material-icons" href="">chevron_left</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+            <a href="">7</a>
+            <a href="">8</a>
+            <a href="">9</a>
+            <a href="">10</a>
+            <a class="material-icons" href="">chevron_right</a>
+        </div>
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer -->
+    <footer>
+        <div id="information">
+            <h3>Informacion</h3>
+            <a href="">Rreth Nesh</a>
+            <a href="">Kushtet e Përdorimit</a>
+        </div>
+        <div id="contact">
+            <h3>Kontakt</h3>
+            <div id="contactIcons">
+                <a href=""><span id="whatsapp" class="material-icons">whatsapp</span></a>
+                <a href=""><span id="email" class="material-icons-outlined">email</span></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; Copyright 2022 Low AL - Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>
