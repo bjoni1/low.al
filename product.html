@@ -1,120 +1,347 @@
-<!doctype html>
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%Low.al</title>
 
-    <title>Product</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Custom CSS files -->
-    <link rel="stylesheet" type="text/css" href="assets/css/shared/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/shared/header.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/shared/footer.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/product/product.css">
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- Header -->
-    <header>
-        <!-- Access -->
-        <ul class="access-grid access-grid-template">
-            <li><a href="#"><span class="material-icons">account_circle</span>Hyr</a></li>
-            <li><a href="#"><span class="material-icons">favorite</span>Lista e Dëshirave</a></li>
-        </ul>
 
-        <!-- Primary Navigation -->
-        <nav>
-            <ul class="nav-grid nav-grid-template">
-                <li id="brand"><a href="index.html">Low.al</a></li>
-                <li>
-                    <div class="dropdown">
-                        <a href="#">Produktet<span class="material-icons">expand_more</span></a>
-                        <div class="dropdown-content">
-                            <a href="#">Informatika</a>
-                            <a href="#">Telefonia</a>
-                            <a href="#">Argëtim</a>
+    <!-- start #header -->
+        <header id="header">
+            <!-- Primary Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <a class="navbar-brand" href="#"><h1>%Low.al</h1></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Ne Oferte</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Kategorite
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="#telefona">Telefona</a></li>
+                        <li><a class="dropdown-item" href="#televizor">Televizor Dhe Aksesor Televiziv</a></li>
+                        <li><a class="dropdown-item" href="#hobi">Hobi & Argetim</a></li>
+                        <li><a class="dropdown-item" href="#elektroshtepiake">ElektroShtepiake</a></li>
+                        <li><a class="dropdown-item" href="#kompjutera">Kompjutera</a></li>
+                        <li><a class="dropdown-item" href="#foto">Paisje Fotografike & Audio</a></li>
+
+                      </ul>
+                    </li>
+                      
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  </form>
+                </div>
+              </nav>
+               <!-- !Primary Navigation -->
+
+        </header>
+    <!-- !start #header -->
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+        <!--   product  -->
+            <section id="product" class="py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="../assets/products/1.png" alt="product" class="img-fluid-produkt">
+                           
+                        </div>
+                        <div class="col-sm-6 py-5">
+                            <h3 class="font-baloo font-size-20">Dyqanet:</h3>
+                            <hr class="m-0">
+                            
+
+                            <!---    links       -->
+                                <table class="my-3">
+                                    <tr class="font-rale font-size-14">
+                                      <div class="card" style="margin-top: 10px;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Neptune Al</h5>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                          <a href="https://neptune.al" class="btn btn-primary">Shiko produktin</a>
+                                        </div>
+                                      </div>
+                                        
+                                    </tr>
+                                    <tr class="font-rale font-size-14">
+                                      <div class="card" style="margin-top: 10px;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Shpresa Al</h5>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                          <a href="https://shpresa.al" class="btn btn-primary">Shiko Produktin</a>
+                                        </div>
+                                      </div>
+                                    </tr>
+                                    <tr class="font-rale font-size-14">
+                                      <div class="card" style="margin-top: 10px;">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Special title treatment</h5>
+                                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                                        </div>
+                                      </div>
+                                    </tr>
+                                </table>
+
+                             
+                                <hr>
+
+                             <div class="row">
+                                 <div class="col-6">
+                                        <!-- color -->
+                                            <div class="color my-3">
+                                              <div class="d-flex justify-content-between">
+                                                <h6 class="font-baloo">Color:</h6>
+                                                <div class="p-2 color-yellow-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                                <div class="p-2 color-primary-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                                <div class="p-2 color-second-bg rounded-circle"><button class="btn font-size-14"></button></div>
+                                              </div>
+                                            </div>
+                                        <!-- !color -->
+                                 </div>
+                                
+                             </div>
+
+                            <!-- size -->
+                                <div class="size my-3">
+                                    <h6 class="font-baloo">Size :</h6>
+                                    <div class="d-flex justify-content-between w-75">
+                                        <div class="font-rubik border p-2">
+                                            <button class="btn p-0 font-size-14" >4GB RAM</button>
+                                        </div>
+                                        <div class="font-rubik border p-2">
+                                            <button class="btn p-0 font-size-14">6GB RAM</button>
+                                        </div>
+                                        <div class="font-rubik border p-2">
+                                            <button class="btn p-0 font-size-14">8GB RAM</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            <!-- !size -->
+
+
+                        </div>
+
+                        <div class="col-12">
+                            <h6 class="font-rubik">Product Description</h6>
+                            <hr>
+                            <p class="font-rale font-size-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente optio sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga. Maiores minus, accusantium velit numquam a aliquam vitae vel?</p>
+                            <p class="font-rale font-size-14">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente optio sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga. Maiores minus, accusantium velit numquam a aliquam vitae vel?</p>
                         </div>
                     </div>
-                </li>
-                <li id="search">
-                    <form>
-                        <input id="searchInput" type="text" placeholder="Kërko">
-                        <span id="searchIcon" class="material-icons">search</span>
-                    </form>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <!-- Header End -->
+                </div>
+            </section>
+        <!--   !product  -->
 
-    <!-- Main -->
-    <main>
-        <img src="assets/img/products/informatics/1.png">
 
-        <div class="stores">
-            <div class="heading">
-                <p href="">Dyqanet:</p>
-                <hr>
+          <!-- Top Sale -->
+          <section id="top-sale">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20">Ne Oferte</h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Samsung Galaxy 10</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/2.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Readme Note 7</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/3.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Readme Note 7</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/6.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Samsung Galaxy 10</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/1.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Readme Note 7</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>$152</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/1.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Readme Note 7</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>$122</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/2.png" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Readme Note 7</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>$122</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
             </div>
+          </section>
+        <!-- !Top Sale -->
 
-            <div class="store">
-                <p class="store-name">Neptun.al</p>
-                <p class="store-price">10,000 Lekë</p>
-                <a class="store-link" href="">Shiko Produktin</a>
+        </main>
+    <!-- !start #main-site -->
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">%Low.al</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Rreth Nesh</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              
             </div>
-            <div class="store">
-                <p class="store-name">Shpresa.al</p>
-                <p class="store-price">11,000 Lekë</p>
-                <a class="store-link" href="">Shiko Produktin</a>
-            </div>
-            <div class="store">
-                <p class="store-name">Dyqan</p>
-                <p class="store-price">12,000 Lekë</p>
-                <a class="store-link" href="">Shiko Produktin</a>
-            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Copyrights 2022. Desing By <a href="#" class="color-second">%Low.al</a></p>
         </div>
+    <!-- !start #footer -->
 
-        <div class="product-description">
-            <p>Përshkrimi i Produktit</p>
-            <hr>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est
-                ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente
-                optio
-                sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo fuga.
-                Maiores minus, accusantium velit numquam a aliquam vitae vel?
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat inventore vero numquam error est
-                ipsa, consequuntur temporibus debitis nobis sit, delectus officia ducimus dolorum sed corrupti. Sapiente
-                optio sunt provident, accusantium eligendi eius reiciendis animi? Laboriosam, optio qui? Numquam, quo
-                fuga. Maiores minus, accusantium velit numquam a aliquam vitae vel?
-            </p>
-        </div>
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
 
-    </main>
-    <!-- Main End -->
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
 
-    <!-- Footer -->
-    <footer>
-        <div id="information">
-            <h3>Informacion</h3>
-            <a href="">Rreth Nesh</a>
-            <a href="">Kushtet e Përdorimit</a>
-        </div>
-        <div id="contact">
-            <h3>Kontakt</h3>
-            <div id="contactIcons">
-                <a href=""><span id="whatsapp" class="material-icons">whatsapp</span></a>
-                <a href=""><span id="email" class="material-icons-outlined">email</span></a>
-            </div>
-        </div>
-        <div id="copyright">
-            <p>&copy; Copyright 2022 Low AL - Të gjitha të drejtat e rezervuara.</p>
-        </div>
-    </footer>
-    <!-- Footer End -->
+    <!-- Custom Javascript -->
+    <script src="./index.js"></script>
 </body>
-
 </html>
