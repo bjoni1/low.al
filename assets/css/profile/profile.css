@@ -1,0 +1,93 @@
+main {
+    margin: 5% 10%;
+    display: grid;
+    grid-template: min-content min-content auto / 1fr;
+}
+
+/* Nav Tab */
+.nav-tabs {
+    display: grid;
+    place-items: center center;
+    grid-template-columns: 1fr 1fr;
+}
+
+button {
+    padding: 0.5%;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #ffca2c;
+    color: #000000;
+}
+
+main>hr {
+    margin-bottom: 1%;
+}
+
+/* Profile Tab */
+#profile {
+    display: none;
+}
+
+#profile-details {
+    text-align: center;
+}
+
+/* Wishlist Tab */
+#wishlist {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.product {
+    display: grid;
+    place-items: center center;
+    box-shadow: #0000000d 0 0 0 0.05rem;
+}
+
+.product>a {
+    text-decoration: none;
+    color: #ffca2c;
+}
+
+/* JS Tab Switching */
+.tab-active {
+    border-bottom: 0.2rem solid #ffca2c !important;
+    color: #000000 !important;
+}
+
+.profile-active {
+    display: grid !important;
+    gap: 1rem 0;
+    grid-template: 1fr auto / 1fr;
+}
+
+.wishlist-active {
+    display: grid !important;
+}
+
+@media only screen and (min-width: 576px) {
+    .nav-tabs {
+        display: block;
+    }
+
+    #wishlist {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+@media only screen and (min-width: 768px) {
+    .profile-active {
+        display: grid !important;
+        gap: 0;
+        grid-template: 1fr / 1fr 1fr;
+    }
+
+    #wishlist {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
