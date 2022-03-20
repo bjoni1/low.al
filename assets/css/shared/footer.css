@@ -1,0 +1,55 @@
+footer {
+    display: grid;
+    row-gap: 0.25rem;
+    color: #ffffff;
+    font-size: 0.80rem;
+    background-color: #222831;
+    place-items: center center;
+    padding: 0.5rem 0;
+}
+
+footer>div {
+    display: grid;
+    place-items: center center;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #00a5c4;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#contactIcons {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 1rem;
+}
+
+#whatsapp {
+    color: #25D366;
+}
+
+/* Desktop */
+@media only screen and (min-width: 576px) {
+    footer {
+        grid-template:
+            ". info . . contact ."
+            "cr cr cr cr cr cr"
+    }
+
+    #information {
+        grid-area: info;
+    }
+
+    #contact {
+        grid-area: contact;
+    }
+
+    #copyright {
+        grid-area: cr;
+    }
+}
