@@ -1,0 +1,69 @@
+/* Misc */
+.grid-row {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.25rem;
+    place-items: center center;
+}
+
+.grid-column {
+    display: grid;
+    grid-auto-flow: row;
+    column-gap: 0.25rem;
+    place-items: center center;
+}
+
+.grid-left {
+    display: grid;
+    place-items: center start;
+}
+
+.grid-center {
+    display: grid;
+    place-items: center center;
+}
+
+.grid-right {
+    display: grid;
+    place-items: center end;
+}
+
+.font-xl {
+    font-size: 2rem;
+}
+
+.font-l {
+    font-size: 1.5rem;
+}
+
+.font-m {
+    font-size: 1rem;
+}
+
+.font-s {
+    font-size: 0.80rem;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.color-light {
+    color: #8cd6e4;
+}
+
+.color-light:hover {
+    color: #ffffff;
+}
+
+.color-red {
+    background: red;
+}
+
+.pad-left {
+    padding-left: 1rem;
+}
+
+.pad-right {
+    padding-right: 1rem;
+}
