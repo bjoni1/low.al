@@ -1,0 +1,62 @@
+main {
+    /* Photo by Marcel Strauß on Unsplash https://unsplash.com/license*/
+    background-image: url("../../img/user/register.jpg");
+    background-size: cover;
+    display: grid;
+    place-items: center center;
+}
+
+.loginForm {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    margin: 0 10%;
+    padding: 5%;
+    display: grid;
+    align-items: center;
+}
+
+.loginForm>h1 {
+    justify-self: center;
+    padding: 0.5rem 5rem;
+}
+
+.loginForm>input {
+    border: 0.01rem solid #000000;
+    padding: 2% 2%;
+    font-size: 0.9rem;
+}
+
+.loginForm>input[type="email"] {
+    margin-bottom: 5%;
+}
+
+.loginForm>input[type="submit"] {
+    cursor: pointer;
+    background-color: #00a5c4;
+    color: #ffffff;
+    margin: 10% 27.5% 5% 27.5%;
+    transition: 0.5s;
+}
+
+.loginForm>input[type="submit"]:active {
+    transform: scale(0.98);
+    background-color: #ffca2c;
+}
+
+.loginForm>a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #ffffffb0;
+    text-align: center;
+}
+
+.loginForm>a:hover {
+    color: #ffffff;
+}
+
+/* Desktop */
+@media only screen and (min-width: 576px) {
+    .loginForm {
+        margin: 0 35%;
+    }
+}
