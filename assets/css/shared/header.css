@@ -1,0 +1,139 @@
+/* Access Navigation */
+.access-grid {
+    display: grid;
+    padding: 0.25rem 0 0.25rem 0;
+    background: #f8f9fa;
+}
+
+.access-grid-template {
+    grid-template: 1fr / 1fr 1fr;
+}
+
+.access-grid li {
+    display: grid;
+    place-items: center center;
+}
+
+.access-grid a {
+    text-decoration: none;
+    color: #2c2c2c;
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.25rem;
+    place-items: center center;
+    font-size: 0.80rem;
+}
+
+.access-grid a:hover {
+    color: #000000;
+}
+
+/* Desktop */
+@media only screen and (min-width: 576px) {
+    .access-grid-template {
+        grid-template: 1fr / 1fr 1fr 8fr;
+    }
+}
+
+/* Primary Navigation */
+.nav-grid {
+    list-style: none;
+    display: grid;
+    column-gap: 1rem;
+    padding: 1rem 0 1rem 0;
+    background: #00a5c4;
+}
+
+.nav-grid-template {
+    grid-template: 1fr 1fr 1fr / 1fr;
+}
+
+.nav-grid a {
+    text-decoration: none;
+}
+
+.nav-grid>li {
+    display: grid;
+    place-items: center center;
+}
+
+#brand a {
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+#search>form {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.25rem;
+    place-items: center center;
+}
+
+#searchInput {
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+#searchIcon {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Dropdown */
+.dropdown>a {
+    display: grid;
+    grid-auto-flow: column;
+    column-gap: 0.25rem;
+    place-items: center center;
+    font-size: 1rem;
+    color: #8cd6e4;
+}
+
+.dropdown>a:hover {
+    color: #ffffff;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 10rem;
+    box-shadow: 0rem 1rem 1rem 0rem #00000033;
+}
+
+.dropdown-content a {
+    padding: 0.75rem 0.75rem;
+    color: #000000;
+}
+
+.dropdown-content a:hover {
+    background-color: #dddddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: grid;
+    z-index: 1;
+}
+
+/* Desktop */
+@media only screen and (min-width: 576px) {
+    .access-grid-template {
+        grid-template: 1fr / 1fr 1fr 8fr;
+    }
+
+    .nav-grid-template {
+        grid-template: 1fr / 8fr 1fr 1fr;
+    }
+
+    #brand {
+        display: grid;
+        place-items: center start;
+        padding-left: 1rem;
+    }
+
+    #search {
+        display: grid;
+        place-items: center end;
+        padding-right: 1rem;
+    }
+}
