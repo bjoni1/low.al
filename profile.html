@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Profile</title>
+
+    <!-- Custom CSS files -->
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/header.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/shared/footer.css">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/profile/profile.css">
+
+    <!-- JS Files -->
+    <script src="assets/js/profile/tabNav.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Access -->
+        <ul class="access-grid access-grid-template">
+            <li><a href="#"><span class="material-icons">account_circle</span>Hyr</a></li>
+            <li><a href="#"><span class="material-icons">favorite</span>Lista e Dëshirave</a></li>
+        </ul>
+
+        <!-- Primary Navigation -->
+        <nav>
+            <ul class="nav-grid nav-grid-template">
+                <li id="brand"><a href="index.html">Low.al</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href="#">Produktet<span class="material-icons">expand_more</span></a>
+                        <div class="dropdown-content">
+                            <a href="#">Informatika</a>
+                            <a href="#">Telefonia</a>
+                            <a href="#">Argëtim</a>
+                        </div>
+                    </div>
+                </li>
+                <li id="search">
+                    <form>
+                        <input id="searchInput" type="text" placeholder="Kërko">
+                        <span id="searchIcon" class="material-icons">search</span>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main -->
+    <main>
+        <div class="nav-tabs">
+            <button id="profile-button" class="tab-active">Profili i Përdoruesit</button>
+            <button id="wishlist-button">Produktet e Dëshiruara</button>
+        </div>
+
+        <hr>
+
+        <div id="profile" class="profile-active">
+            <!-- https://undraw.co/license -->
+            <img src="assets/img/user/undraw_people.svg">
+            <div id="profile-details">
+                <h2>Email</h2>
+                <p>name.surname@mail.com</p>
+                <h2>Data e Regjistrimit</h2>
+                <p>15/01/2021</p>
+            </div>
+        </div>
+
+        <div id="wishlist">
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/1.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/2.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/3.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/4.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/5.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/1.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/2.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/3.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/4.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+            <div class="product">
+                <a href=""><img src="assets/img/products/informatics/5.png"></a>
+                <p>Laptop 1</p>
+                <p>10,000 Lek</p>
+                <a href="" title="Fshi nga Lista e Dëshirave" class="material-icons">heart_broken</a>
+            </div>
+        </div>
+
+    </main>
+    <!-- Main End -->
+
+    <!-- Footer -->
+    <footer>
+        <div id="information">
+            <h3>Informacion</h3>
+            <a href="">Rreth Nesh</a>
+            <a href="">Kushtet e Përdorimit</a>
+        </div>
+        <div id="contact">
+            <h3>Kontakt</h3>
+            <div id="contactIcons">
+                <a href=""><span id="whatsapp" class="material-icons">whatsapp</span></a>
+                <a href=""><span id="email" class="material-icons-outlined">email</span></a>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>&copy; Copyright 2022 Low AL - Të gjitha të drejtat e rezervuara.</p>
+        </div>
+    </footer>
+    <!-- Footer End -->
+</body>
+
+</html>
